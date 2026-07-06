@@ -792,3 +792,46 @@ border:1px solid rgba(255,255,255,.08);
 .logo:hover{
     color:#ffffff;
 }
+/* Hero Heading Mobile Fix */
+@media (max-width:768px){
+
+.hero-text h1{
+    font-size:32px;
+    line-height:1.4;
+    word-break:break-word;
+}
+
+.hero-text span{
+    display:block;
+    font-size:34px;
+}
+
+}
+/* Mobile Card Layout */
+@media (max-width:768px){
+
+.feature-container,
+.service-container,
+.pricing-container,
+.team-container,
+.testimonial-container{
+
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+
+}
+
+.feature-box,
+.service-box,
+.price-card,
+.team-card,
+.testimonial-card{
+
+    width:100%;
+    max-width:340px;
+    margin:auto;
+
+}
+
+}
