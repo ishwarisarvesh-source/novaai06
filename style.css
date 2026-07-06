@@ -795,15 +795,23 @@ border:1px solid rgba(255,255,255,.08);
 /* Hero Heading Mobile Fix */
 @media (max-width:768px){
 
+.hero-text{
+    width:100%;
+    padding:0 15px;
+}
+
 .hero-text h1{
-    font-size:32px;
+    font-size:28px;
     line-height:1.4;
-    word-break:break-word;
+    white-space:normal;
+    overflow:visible;
+    word-wrap:break-word;
 }
 
 .hero-text span{
     display:block;
-    font-size:34px;
+    font-size:28px;
+    white-space:normal;
 }
 
 }
